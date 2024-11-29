@@ -5,6 +5,8 @@
   - [Screenshots](#screenshots)
   - [Requirements](#requirements)
   - [Installation](#installation)
+  - [Usage](#usage)
+  - [What's next ?](#whats-next)
 <!--toc:end-->
 
 ## Screenshots
@@ -92,3 +94,12 @@ Remember that this installation guide has not been tested yet, you might need to
 ## Usage
 
 All keybindings are specified in `.config/hypr/keybinds.conf`
+
+## What's next ?
+
+This configuration is for now using catppuccin's color palette and cursors.
+I plan on making my own cursor.
+
+I also want to generate a color palette based on your wallpaper.
+
+Grub, firefox, wallpaper and more things are still on my Todo list.
