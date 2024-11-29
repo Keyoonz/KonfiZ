@@ -24,7 +24,7 @@ Required :
 - hyprpaper
 - hypridle
 - hyprshot
-- rofi
+- rofi-wayland
 - wlogout
 - swaync
 - brightnessctl
