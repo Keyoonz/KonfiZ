@@ -76,7 +76,7 @@ It is now time to setup sddm, use these commands to make it ready for use.
 
 ```bash
 sudo ln -s ~/konfiz/.config/sddm.conf.d/ /etc
-sudo cp ~/konfiz/.config/sddm-custom-theme /usr/share/sddm/themes/
+sudo cp -r ~/konfiz/.config/sddm-custom-theme /usr/share/sddm/themes/
 ```
 
 Now start the required sockets
