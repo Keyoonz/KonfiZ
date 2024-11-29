@@ -1,0 +1,135 @@
+{
+  "layer" : "top",
+  "position" : "top",
+  "reload_style_on_change": true,
+  "modules-left": [
+    "hyprland/workspaces",
+  ],
+  "modules-center": [
+    "clock"
+  ],
+  "modules-right" : [
+    "tray",
+    "pulseaudio",
+    "backlight",
+    "power-profiles-daemon",
+    "battery"
+  ],
+  "battery" : {
+    "interval": 1,
+    "states": {
+      "good": 100,
+      "warning": 30,
+      "critical": 15
+    },
+    "format-full": "{icon}",
+    "format-charging": "{capacity}%󰂄",
+    "format-discharging": "{capacity}%{icon}",
+    "format-icons": [
+      "󰁺",
+      "󰁻",
+      "󰁼",
+      "󰁽",
+      "󰁾",
+      "󰁿",
+      "󰂀",
+      "󰂁",
+      "󰂂",
+      "󰁹"
+    ],
+    "tooltip": true,
+    "tooltip-format": "{timeTo}",
+  },
+  "hyprland/workspaces": {
+    "format": "{icon}",
+    "format-icons": {
+      "active": "",
+      "default": "",
+      "special": "󰣇"
+    },
+    "show-special": true,
+    "sort-by": "id",
+    "all-outputs": true
+  },
+    "hyprland/window": {
+    "format": "",
+    "icon": true
+  },
+  "power-profiles-daemon": {
+    "format": "{icon}",
+    "tooltip": true,
+    "tooltip-format": "{profile}",
+    "format-icons": {
+      "performance": "󰋑",
+      "balanced": "󰛞"   ,
+      "power-saver": "󰋕"
+    }
+  }, 
+  "pulseaudio": {
+    "states": {
+      "loud": 100,
+      "normal": 60,
+      "quite": 30,
+    },
+    "format-loud": "󰕾",
+    "format-normal": "󰖀",
+    "format-quite": "󰕿",
+    "format-muted": "󰝟",
+    "tooltip-format": "{desc} ({volume}%)",
+    "reverse-scrolling": true,
+    "on-click": "amixer set Master toggle",
+    "on-click-right": "pavucontrol",
+    "on-scroll-up": "amixer set Master 1%+",
+    "on-scroll-down": "amixer set Master 1%-"
+  },
+  "tray": {
+    "reverse-direction": true,
+    "spacing": 15,
+    "show-passive-items": true
+  },
+  "clock": {
+    "format": "{:%H:%M}",
+    "tooltip-format": "{calendar}",
+    "calendar": {
+      "mode": "month",
+      "weeks-pos": "left",
+      "on-scroll": 1,
+      "format": {
+        "months": "<span color='#cdd6f4'><b>{}</b></span>",
+        "days": "<span color='#a6adc8'><b>{}</b></span>",
+        "weeks": "<span color='#89b4fa'><b>W{}</b></span>",
+        "weekdays": "<span color='#a6e3a1'><b>{}</b></span>",
+        "today": "<span color='#cba6f7'><b><u>{}</u></b></span>"
+        }
+      },
+    "actions":  {
+      "on-click": "shift_up",
+      "on-click-right": "shift_down",
+      "on-click-middle": "shift_reset",
+      "on-scroll-up": "shift_up",
+      "on-scroll-down": "shift_down"
+    }
+  },
+  "backlight": {
+    "interval": 1,
+    "format": "{icon}",
+    "format-icons": [
+      "󰹐",
+      "󱩎",
+      "󱩏",
+      "󱩐",
+      "󱩑",
+      "󱩒",
+      "󱩓",
+      "󱩔",
+      "󱩕",
+      "󱩖",
+      "󰛨"
+    ],
+    "tooltip-format": "{percent}%",
+    "on-scroll-up": "brightnessctl set 1%+",
+    "on-scroll-down": "brightnessctl set 1%-",
+    "reverse-scrolling": true
+  }
+}
+

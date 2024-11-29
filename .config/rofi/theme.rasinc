@@ -1,0 +1,82 @@
+window {
+  background-color: #313244;
+  border: 3px solid;
+  border-color: #b4befe;
+  border-radius: 0 0 1em 1em;
+  y-offset: -3px;
+  width: 80%;
+}
+
+scrollbar {
+  background-color: #313244;
+  handle-width: 1em;
+  handle-color: #b4befe;
+}
+
+mainbox {
+    background-color: #313244;
+    orientation: vertical;
+    color: #cdd6f4;
+}
+
+inputbar {
+  background-color: inherit;
+  color: inherit;
+}
+
+prompt {
+    color: inherit;
+}
+
+entry {
+    color: inherit;
+}
+
+num-filtered-rows {
+  color: inherit;
+}
+
+case-indicator {
+  color: inherit;
+}
+
+num-rows {
+  color: inherit;
+}
+
+listview {
+  background-color: #313244;
+  lines: 11;
+  spacing: 1px;
+}
+
+element, element-text, element-icon {
+    background-color: #313244;
+    color: #cdd6f4;
+}
+
+element normal.normal, element alternate.normal {
+    background-color: transparent;
+}
+
+element selected.normal, element selected.active{
+    background-color: #f38ba8;
+}
+
+element normal.active, element alternate.active{
+    background-color: #94e2d5;
+}
+
+mode-switcher {
+    background-color: #313244;
+    color: #cdd6f4;
+}
+
+button {
+    color: inherit;
+}
+
+button selected.normal {
+    background-color: #6c7086;
+    color: inherit;
+}

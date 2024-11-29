@@ -1,0 +1,36 @@
+indicator
+indicator-idle-visible
+indicator-radius=150
+indicator-thickness=10
+inside-color=313244
+inside-clear-color=f9e2af
+inside-caps-lock-color=eba0ac
+inside-ver-color=89dceb
+inside-wrong-color=f5c2e7
+key-hl-color=b4befe
+line-uses-ring
+ring-color=6c7086
+ring-clear-color=fab387
+ring-caps-lock-color=6c7086
+ring-ver-color=89b4fa
+ring-wrong-color=f38ba8
+separator-color=6c7086
+text-color=cdd6f4
+text-clear-color=6c7086
+text-caps-lock-color=cdd6f4
+text-ver-color=6c7086
+text-wrong-color=6c7086
+text-caps-lock=CAPS-LOCK
+text-ver=Verifying...
+text-wrong=Try again
+
+clock
+timestr=%H:%M
+datestr=%A, %x
+
+scaling=stretch
+image=$HOME/.config/assets/purple-wallpaper.jpg
+effect-blur=90x1
+effect-pixelate=5
+
+time-effects

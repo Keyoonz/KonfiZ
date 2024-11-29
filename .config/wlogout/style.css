@@ -1,0 +1,87 @@
+* {
+  background-image: none;
+  box-shadow: none;
+}
+
+window {
+  background-color: rgba(12, 12, 12, 0.5);
+}
+
+button {
+  border: 0.5em solid #b4befe;
+  border-radius: 0;
+  color: #cba6f7;
+  background-color: #45475a;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 15%;
+  transition: ease-in-out 0.2s;
+  margin: 10em 0 10em 0;
+}
+
+#lock {
+  background-image: image(url("/usr/share/wlogout/icons/lock.png"), url("/usr/local/share/wlogout/icons/lock.png"));
+  border-radius: 5em 0 0 5em;
+  border-right: none;
+  margin-left: 10em;
+}
+
+#logout {
+  background-image: image(url("/usr/share/wlogout/icons/logout.png"), url("/usr/local/share/wlogout/icons/logout.png"));
+  border-left: none;
+  border-right: none;
+}
+
+#sleep {
+  background-image: image(url("/usr/share/wlogout/icons/suspend.png"), url("/usr/local/share/wlogout/icons/suspend.png"));
+  border-left: none;
+  border-right: none;
+}
+
+#hibernate {
+  background-image: image(url("/usr/share/wlogout/icons/hibernate.png"), url("/usr/local/share/wlogout/icons/hibernate.png"));
+  border-left: none;
+  border-right: none;
+}
+
+#shutdown {
+  background-image: image(url("/usr/share/wlogout/icons/shutdown.png"), url("/usr/local/share/wlogout/icons/shutdown.png"));
+  border-left: none;
+  border-right: none;
+}
+
+#reboot {
+  background-image: image(url("/usr/share/wlogout/icons/reboot.png"), url("/usr/local/share/wlogout/icons/reboot.png"));
+  border-radius: 0 5em 5em 0;
+  border-left: none;
+  margin-right: 10em;
+}
+
+button:focus {
+  background-color: rgba(148, 226, 213, 0.5);
+  outline-style: none;
+}
+
+button:active,
+button:hover {
+  background-color: rgba(203, 166, 247, 0.5);
+  outline-style: none;
+  margin: 3em 0 3em 0;
+  border-radius: 5em;
+}
+
+#lock:active,
+#lock:hover,
+#logout:active,
+#logout:hover,
+#sleep:active,
+#sleep:hover,
+#hibernate:active,
+#hibernate:hover,
+#shutdown:active,
+#shutdown:hover,
+#reboot:active,
+#reboot:hover {
+  border-radius: 5em 5em 5em 5em;
+  border: 0.5em solid #b4befe;
+}

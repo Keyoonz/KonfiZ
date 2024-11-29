@@ -1,0 +1,159 @@
+* {
+  font-family: FontAwesome, Roboto, Helvetica, Arial, sans-serif;
+  font-size: 15;
+}
+
+window#waybar {
+  background-color: #343547;
+  border: 3px solid #cdd6f4;
+  border-top: none;
+  color: #ffffff;
+  transition-property: background-color;
+  transition-duration: .5s;
+  border-radius: 0 0 50em 50em;
+}
+
+box {
+  padding: 0px;
+}
+
+box.modules-left,
+box.modules-right {
+  margin: 0.2em 3em 0.5em 3em;
+}
+
+box.modules-left *,
+box.modules-right * {
+  color: #cdd6f4;
+  margin-left: 0.3em
+}
+
+box.modules-center * {
+  color: #cdd6f4;
+}
+
+window#waybar.hidden {
+  opacity: 0.2;
+}
+
+
+window#waybar.empty {
+  background-color: transparent;
+}
+
+window#waybar.solo {
+  background-color: #FFFFFF;
+}
+
+#battery {
+  transition: linear 0.1s;
+  box-shadow: inset #89dceb 0 0 0.5em;
+  border: 0.2em solid #b4befe;
+  padding: 0.2em;
+  border-radius: 1em;
+}
+
+#battery:hover {
+  border-color: #74c7ec;
+  color: #74c7ec;
+  box-shadow: inset #74c7ec 0 0 0.5em;
+}
+
+#power-profiles-daemon {
+  transition: linear 0.1s;
+  box-shadow: inset #89dceb 0 0 0.5em;
+  border: 0.2em solid #b4befe;
+  padding: 0.5em;
+  padding-right: 0.8em;
+  border-radius: 1em;
+}
+
+#power-profiles-daemon:hover {
+  border-color: #74c7ec;
+  color: #74c7ec;
+  box-shadow: inset #74c7ec 0 0 0.5em;
+}
+
+#backlight {
+  transition: linear 0.1s;
+  box-shadow: inset #89dceb 0 0 0.5em;
+  border: 0.2em solid #b4befe;
+  padding: 0.5em;
+  padding-right: 0.8em;
+  border-radius: 1em;
+}
+
+#backlight:hover {
+  border-color: #74c7ec;
+  color: #74c7ec;
+  box-shadow: inset #74c7ec 0 0 0.5em;
+}
+
+
+#pulseaudio {
+  transition: linear 0.1s;
+  box-shadow: inset #89dceb 0 0 0.5em;
+  border: 0.2em solid #b4befe;
+  padding: 0.5em;
+  padding-right: 0;
+  padding-right: 0.8em;
+  border-radius: 1em;
+}
+
+#pulseaudio:hover {
+  border-color: #74c7ec;
+  color: #74c7ec;
+  box-shadow: inset #74c7ec 0 0 0.5em;
+}
+
+#tray {
+  transition: linear 0.1s;
+  box-shadow: inset #89dceb 0 0 0.5em;
+  border: 0.2em solid #b4befe;
+  padding: 0.5em;
+  padding-right: 0.8em;
+  border-radius: 1em;
+}
+
+#tray * {
+  color: black;
+}
+
+#workspaces {
+  transition: linear 0.1s;
+  box-shadow: inset #89dceb 0 0 0.5em;
+  border: 0.2em solid #b4befe;
+  padding: 0.2em;
+  padding-left: 0;
+  padding-right: 0.3em;
+  border-radius: 1em;
+}
+
+#workspaces * {
+  color: #6c7086;
+}
+
+#workspaces button {
+  transition: linear 0.1s;
+  background-color: #cba6f7;
+  border-radius: 1em;
+  padding: 0;
+  padding-right: 0.9em;
+}
+
+#workspaces button:hover {
+  padding: 0em 2em 0em 1em;
+}
+
+#clock {
+  transition: linear 0.1s;
+  font-weight: 900;
+}
+
+#clock:hover {
+  color: #74c7ec;
+}
+
+tooltip {
+  background-color: #45475a;
+}

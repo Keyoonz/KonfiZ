@@ -1,0 +1,13 @@
+[SddmGreeterTheme]
+Name=Keyonz's custom theme
+Description=Custom theme from Keyonz's dotsfiles
+Type=sddm-theme
+Version=1.0
+Website=https://github.com/Keyonz/ #TODO#
+Screenshot=#TODO#
+MainScript=Main.qml
+ConfigFile=theme.conf
+TranslationsDirectory=translations
+Theme-Id=sddm-custom-theme
+Theme-API=2.0
+QtVersion=6

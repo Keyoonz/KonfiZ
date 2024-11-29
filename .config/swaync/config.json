@@ -1,0 +1,36 @@
+{
+  "positionX": "center",
+  "positionY": "top",
+  "layer": "overlay",
+  "cssPriority": "user",
+  "control-center-margin-top": 0,
+  "control-center-margin-bottom": 30,
+  "control-center-layout": "overlay",
+  "control-center-exclusive-zone": false,
+  "timeout": 5,
+  "timeout-critical": 10,
+  "notification-window-width": 400,
+  "hide-on-clear": true,
+  "fit-to-screen": false,
+  "control-center-width": 800,
+  "widgets": [
+    "mpris",
+    "title",
+    "notifications",
+    "dnd"
+  ],
+  "widget-config": {
+    "title": {
+      "text": "",
+      "clear-all-button": true,
+      "button-text": "Clear"
+    },
+    "dnd": {
+      "text": "Do Not Disturb"
+    },
+    "mpris": {
+      "image-size": 40
+    }
+  }
+}
+

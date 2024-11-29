@@ -1,0 +1,68 @@
+{
+  "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
+  "blocks": [
+    {
+      "type": "prompt",
+      "alignment": "left",
+      "segments": [
+        {
+          "properties": {
+            "cache_duration": "none"
+          },
+          "leading_diamond": "\ue0b6",
+          "trailing_diamond": "\ue0b4",
+          "foreground": "black",
+          "background": "#fab387",
+          "type": "os",
+          "style": "diamond"
+        },
+        {
+          "properties": {
+            "cache_duration": "none"
+          },
+          "trailing_diamond": "\ue0b4",
+          "template": " {{ .UserName }}@{{ .HostName }}",
+          "foreground": "black",
+          "background": "#94e2d5",
+          "type": "session",
+          "style": "diamond"
+        },
+        {
+          "properties": {
+            "cache_duration": "none"
+          },
+          "trailing_diamond": "\ue0b4",
+          "template": " {{ .PWD }} ",
+          "foreground": "black",
+          "background": "#cba6f7",
+          "type": "path",
+          "style": "diamond"
+        },
+        {
+          "properties": {
+            "cache_duration": "none",
+            "fetch_status": true,
+            "fetch_upstream_icon": true,
+            "mapped_branches": {
+              "bug/*": "\ueaaf",
+              "feat/*": "\uf427"
+            },
+            "source": "cli",
+            "untracked_modes": {
+              "/Users/user/Projects/oh-my-posh/": "no"
+            }
+          },
+          "trailing_diamond": "\ue0b4",
+          "template": " {{ .UpstreamIcon }}{{ .HEAD }}{{if .BranchStatus }} {{ .BranchStatus }}{{ end }}{{ if .Working.Changed }} \uf044 {{ .Working.String }}{{ end }}{{ if and (.Working.Changed) (.Staging.Changed) }} |{{ end }}{{ if .Staging.Changed }} \uf046 {{ .Staging.String }}{{ end }}{{ if gt .StashCount 0 }} \uf0c7 {{ .StashCount }}{{ end }}",
+          "foreground": "black",
+          "background": "#f5c2e7",
+          "type": "git",
+          "style": "diamond"
+        }
+      ],
+      "newline": true
+    }
+  ],
+  "version": 3,
+  "final_space": true
+}

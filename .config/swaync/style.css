@@ -1,0 +1,49 @@
+.control-center {
+  border-radius: 0 0 1em 1em;
+  background-color: rgba(49, 50, 68, 0.9);
+  border: 3px solid #cdd6f4;
+  border-top: none;
+  padding: 1em;
+  color: #cdd6f4;
+}
+
+.control-center-clear-all {
+  border: 3px solid #b4befe;
+  border-radius: 5em;
+  box-shadow: inset #89dceb 0 0 0.5em;
+}
+
+.control-center-dnd {
+  background-color: #cba6f7;
+  transition: 25ms linear;
+}
+
+.control-center-dnd:checked {
+  background-color: #f5c2e7;
+}
+
+.control-center-dnd slider {
+  background-color: #6c7086;
+  border: 1px solid #6c7086;
+  box-shadow: inset #6c7086 0 0 0.5em;
+}
+
+.notification {
+  border: 3px solid #cdd6f4;
+  border-radius: 1em;
+  background-color: rgba(49, 50, 68, 0.7);
+}
+
+.notification-default-action {
+  box-shadow: inset #89dceb 0 0 0.5em;
+}
+
+.notification-default-action:hover {
+  background-color: rgba(49, 50, 68, 0.8);
+  box-shadow: inset #89dceb 0 0 0.5em;
+}
+
+.close-button {
+  border: 3px solid #cdd6f4;
+  box-shadow: inset #89dceb 0 0 0.5em;
+}
