@@ -1,3 +1,6 @@
 \.git
-^/README.*
-^/LICENSE.*
+screenshots
+README.*
+LICENSE.*
+.config/sddm.conf.d
+.config/sddm-custom-theme
