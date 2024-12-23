@@ -10,3 +10,7 @@ fi
 alias vim=nvim
 
 . /opt/asdf-vm/asdf.sh
+
+eval "$(zoxide init --cmd cd zsh)"
+# Set up fzf key bindings and fuzzy completion
+source <(fzf --zsh)
