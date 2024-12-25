@@ -1,11 +1,13 @@
+@import url("colors.css");
+
 * {
   font-family: FontAwesome, Roboto, Helvetica, Arial, sans-serif;
   font-size: 15;
 }
 
 window#waybar {
-  background-color: #343547;
-  border: 3px solid #cdd6f4;
+  background-color: @background;
+  border: 3px solid @primary;
   border-top: none;
   color: #ffffff;
   transition-property: background-color;
@@ -24,12 +26,12 @@ box.modules-right {
 
 box.modules-left *,
 box.modules-right * {
-  color: #cdd6f4;
+  color: @primary;
   margin-left: 0.3em
 }
 
 box.modules-center * {
-  color: #cdd6f4;
+  color: @primary;
 }
 
 window#waybar.hidden {
@@ -42,58 +44,58 @@ window#waybar.empty {
 }
 
 window#waybar.solo {
-  background-color: #FFFFFF;
+  background-color: white;
 }
 
 #battery {
   transition: linear 0.1s;
-  box-shadow: inset #89dceb 0 0 0.5em;
-  border: 0.2em solid #b4befe;
+  box-shadow: inset @primary_container 0 0 0.5em;
+  border: 0.2em solid @primary_container;
   padding: 0.2em;
   border-radius: 1em;
 }
 
 #battery:hover {
-  border-color: #74c7ec;
-  color: #74c7ec;
-  box-shadow: inset #74c7ec 0 0 0.5em;
+  border-color: @primary_fixed_dim;
+  color: @primary_fixed;
+  box-shadow: inset @primary_fixed_dim 0 0 0.5em;
 }
 
 #power-profiles-daemon {
   transition: linear 0.1s;
-  box-shadow: inset #89dceb 0 0 0.5em;
-  border: 0.2em solid #b4befe;
+  box-shadow: inset @primary_container 0 0 0.5em;
+  border: 0.2em solid @primary_container;
   padding: 0.5em;
   padding-right: 0.8em;
   border-radius: 1em;
 }
 
 #power-profiles-daemon:hover {
-  border-color: #74c7ec;
-  color: #74c7ec;
-  box-shadow: inset #74c7ec 0 0 0.5em;
+  border-color: @primary_fixed_dim;
+  color: @primary_fixed;
+  box-shadow: inset @primary_fixed_dim 0 0 0.5em;
 }
 
 #backlight {
   transition: linear 0.1s;
-  box-shadow: inset #89dceb 0 0 0.5em;
-  border: 0.2em solid #b4befe;
+  box-shadow: inset @primary_container 0 0 0.5em;
+  border: 0.2em solid @primary_container;
   padding: 0.5em;
   padding-right: 0.8em;
   border-radius: 1em;
 }
 
 #backlight:hover {
-  border-color: #74c7ec;
-  color: #74c7ec;
-  box-shadow: inset #74c7ec 0 0 0.5em;
+  border-color: @primary_fixed_dim;
+  color: @primary_fixed;
+  box-shadow: inset @primary_fixed_dim 0 0 0.5em;
 }
 
 
 #pulseaudio {
   transition: linear 0.1s;
-  box-shadow: inset #89dceb 0 0 0.5em;
-  border: 0.2em solid #b4befe;
+  box-shadow: inset @primary_container 0 0 0.5em;
+  border: 0.2em solid @primary_container;
   padding: 0.5em;
   padding-right: 0;
   padding-right: 0.8em;
@@ -101,15 +103,15 @@ window#waybar.solo {
 }
 
 #pulseaudio:hover {
-  border-color: #74c7ec;
-  color: #74c7ec;
-  box-shadow: inset #74c7ec 0 0 0.5em;
+  border-color: @primary_fixed_dim;
+  color: @primary_fixed;
+  box-shadow: inset @primary_fixed_dim 0 0 0.5em;
 }
 
 #tray {
   transition: linear 0.1s;
-  box-shadow: inset #89dceb 0 0 0.5em;
-  border: 0.2em solid #b4befe;
+  box-shadow: inset @primary_container 0 0 0.5em;
+  border: 0.2em solid @primary_container;
   padding: 0.5em;
   padding-right: 0.8em;
   border-radius: 1em;
@@ -121,8 +123,8 @@ window#waybar.solo {
 
 #workspaces {
   transition: linear 0.1s;
-  box-shadow: inset #89dceb 0 0 0.5em;
-  border: 0.2em solid #b4befe;
+  box-shadow: inset @primary_container 0 0 0.5em;
+  border: 0.2em solid @primary_container;
   padding: 0.2em;
   padding-left: 0;
   padding-right: 0.3em;
@@ -130,12 +132,12 @@ window#waybar.solo {
 }
 
 #workspaces * {
-  color: #6c7086;
+  color: @on_tertiary;
 }
 
 #workspaces button {
   transition: linear 0.1s;
-  background-color: #cba6f7;
+  background-color: @tertiary;
   border-radius: 1em;
   padding: 0;
   padding-right: 0.9em;
@@ -151,9 +153,9 @@ window#waybar.solo {
 }
 
 #clock:hover {
-  color: #74c7ec;
+  color: @primary_fixed;
 }
 
 tooltip {
-  background-color: #45475a;
+  background-color: @secondary_container;
 }

@@ -1,0 +1,23 @@
+[config.wallaper]
+command = "swww"
+arguments = ["img", "--transition-duration", "1", "--transition-type", "grow", "--transition-fps", "60", "--transition-pos", "0.5,0.9"]
+set = false
+
+[templates.waybar]
+input_path = './templates/colors.css'
+output_path = '~/.config/waybar/colors.css'
+
+[templates.rofi]
+input_path = './templates/colors.rasinc'
+output_path = '~/.config/rofi/colors.rasinc'
+post_hook = 'sed -i "s/_/-/g" ~/.config/rofi/colors.rasinc'
+
+[templates.swaync]
+input_path = './templates/colors.css'
+output_path = '~/.config/swaync/colors.css'
+post_hook = 'swaync-client -rs'
+
+[templates.hyprland]
+input_path = './templates/colors.conf'
+output_path = '~/.config/hypr/colors.conf'
+post_hook = 'sed -i "s/, /,/g" ~/.config/hypr/colors.conf'

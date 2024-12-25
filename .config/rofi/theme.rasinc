@@ -1,22 +1,24 @@
+@import "colors.rasinc"
+
 window {
-  background-color: #313244;
+  background-color: @background;
   border: 3px solid;
-  border-color: #b4befe;
+  border-color: @primary;
   border-radius: 0 0 1em 1em;
   y-offset: -3px;
   width: 80%;
 }
 
 scrollbar {
-  background-color: #313244;
+  background-color: @background;
   handle-width: 1em;
-  handle-color: #b4befe;
+  handle-color: @surface-container;
 }
 
 mainbox {
-    background-color: #313244;
+    background-color: @background;
     orientation: vertical;
-    color: #cdd6f4;
+    color: @primary;
 }
 
 inputbar {
@@ -45,14 +47,14 @@ num-rows {
 }
 
 listview {
-  background-color: #313244;
+  background-color: @background;
   lines: 11;
   spacing: 1px;
 }
 
 element, element-text, element-icon {
-    background-color: #313244;
-    color: #cdd6f4;
+    background-color: @background;
+    color: @primary;
 }
 
 element normal.normal, element alternate.normal {
@@ -60,16 +62,16 @@ element normal.normal, element alternate.normal {
 }
 
 element selected.normal, element selected.active{
-    background-color: #f38ba8;
+    background-color: @secondary;
 }
 
 element normal.active, element alternate.active{
-    background-color: #94e2d5;
+    background-color: @tertiary;
 }
 
 mode-switcher {
-    background-color: #313244;
-    color: #cdd6f4;
+    background-color: @background;
+    color: @primary;
 }
 
 button {
@@ -77,6 +79,6 @@ button {
 }
 
 button selected.normal {
-    background-color: #6c7086;
+    background-color: @on-primary;
     color: inherit;
 }
