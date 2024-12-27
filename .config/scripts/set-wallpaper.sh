@@ -8,3 +8,5 @@ wallpapername=$(sed "s_-wallpaper\.\w*__" <<<$(sed "s_.*wallpaper/__" <<<"$1"))
 wallpaperextension=$(sed "s_.*-wallpaper\.__" <<<"$1")
 wallpaper=$wallpapername-wallpaper.$wallpaperextension
 sed -i "s_wallpaper/[^ ]*\.\w*_wallpaper/${wallpaper}_" ~/.config/hypr/lastWallpaper.conf
+sed -i "s_image=.*_image=${1}_" ~/.config/swaylock/config
+sed -i "s_${HOME}_~_" ~/.config/swaylock/config

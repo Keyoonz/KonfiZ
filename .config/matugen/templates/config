@@ -1,0 +1,36 @@
+indicator
+indicator-idle-visible
+indicator-radius=150
+indicator-thickness=10
+inside-color={{colors.background.default.hex}}
+inside-clear-color={{colors.on_error_container.default.hex}}
+inside-caps-lock-color={{colors.background.default.hex}}
+inside-ver-color={{colors.primary_container.default.hex}}
+inside-wrong-color={{colors.error_container.default.hex}}
+key-hl-color={{colors.primary.default.hex}}
+line-uses-ring
+ring-color={{colors.primary_container.default.hex}}
+ring-clear-color={{colors.on_error.default.hex}}
+ring-caps-lock-color={{colors.primary.default.hex}}
+ring-ver-color={{colors.primary_fixed_dim.default.hex}}
+ring-wrong-color={{colors.on_error.default.hex}}
+separator-color={{colors.primary_fixed_dim.default.hex}}
+text-color={{colors.primary.default.hex}}
+text-clear-color={{colors.on_error.default.hex}}
+text-caps-lock-color={{colors.primary.default.hex}}
+text-ver-color={{colors.primary.default.hex}}
+text-wrong-color={{colors.error.default.hex}}
+text-caps-lock=CAPS-LOCK
+text-ver=Verifying...
+text-wrong=Try again
+
+clock
+timestr=%H:%M
+datestr=%A, %x
+
+scaling=stretch
+image=$HOME/.config/assets/wallpaper/any-wallpaper.jpg
+effect-blur=90x1
+effect-pixelate=5
+
+time-effects

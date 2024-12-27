@@ -21,3 +21,16 @@ post_hook = 'swaync-client -rs'
 input_path = './templates/colors.conf'
 output_path = '~/.config/hypr/colors.conf'
 post_hook = 'sed -i "s/, /,/g" ~/.config/hypr/colors.conf'
+
+[templates.swaylock]
+input_path = './templates/config'
+output_path = '~/.config/swaylock/config'
+
+[templates.wlogout]
+input_path = './templates/wlogoutcolors.css'
+output_path = '~/.config/wlogout/colors.css'
+
+[templates.oh-my-posh]
+input_path = './templates/config.omp.json'
+output_path = '~/.config/oh-my-posh/config.omp.json'
+post_hook = 'sed -i "s/|/{/g" ~/.config/oh-my-posh/config.omp.json && sed -i "s/°/}/g" ~/.config/oh-my-posh/config.omp.json'

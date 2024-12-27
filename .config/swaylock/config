@@ -2,24 +2,24 @@ indicator
 indicator-idle-visible
 indicator-radius=150
 indicator-thickness=10
-inside-color=313244
-inside-clear-color=f9e2af
-inside-caps-lock-color=eba0ac
-inside-ver-color=89dceb
-inside-wrong-color=f5c2e7
-key-hl-color=b4befe
+inside-color=#151218
+inside-clear-color=#ffdad6
+inside-caps-lock-color=#151218
+inside-ver-color=#523c73
+inside-wrong-color=#93000a
+key-hl-color=#d6bbfb
 line-uses-ring
-ring-color=6c7086
-ring-clear-color=fab387
-ring-caps-lock-color=6c7086
-ring-ver-color=89b4fa
-ring-wrong-color=f38ba8
-separator-color=6c7086
-text-color=cdd6f4
-text-clear-color=6c7086
-text-caps-lock-color=cdd6f4
-text-ver-color=6c7086
-text-wrong-color=6c7086
+ring-color=#523c73
+ring-clear-color=#690005
+ring-caps-lock-color=#d6bbfb
+ring-ver-color=#d6bbfb
+ring-wrong-color=#690005
+separator-color=#d6bbfb
+text-color=#d6bbfb
+text-clear-color=#690005
+text-caps-lock-color=#d6bbfb
+text-ver-color=#d6bbfb
+text-wrong-color=#ffb4ab
 text-caps-lock=CAPS-LOCK
 text-ver=Verifying...
 text-wrong=Try again
@@ -29,7 +29,7 @@ timestr=%H:%M
 datestr=%A, %x
 
 scaling=stretch
-image=$HOME/.config/assets/purple-wallpaper.jpg
+image=~/.config/assets/wallpaper/purple-wallpaper.jpg
 effect-blur=90x1
 effect-pixelate=5
 

@@ -11,8 +11,8 @@
           },
           "leading_diamond": "\ue0b6",
           "trailing_diamond": "\ue0b4",
-          "foreground": "#151218",
-          "background": "#f1b7c2",
+          "foreground": "{{colors.surface.default.hex}}",
+          "background": "{{colors.tertiary.default.hex}}",
           "type": "os",
           "style": "diamond"
         },
@@ -21,9 +21,9 @@
             "cache_duration": "none"
           },
           "trailing_diamond": "\ue0b4",
-          "template": " {{ .UserName }}@{{ .HostName }}",
-          "foreground": "#151218",
-          "background": "#cec2db",
+          "template": " || .UserName °°@|| .HostName °°",
+          "foreground": "{{colors.surface.default.hex}}",
+          "background": "{{colors.secondary.default.hex}}",
           "type": "session",
           "style": "diamond"
         },
@@ -32,9 +32,9 @@
             "cache_duration": "none"
           },
           "trailing_diamond": "\ue0b4",
-          "template": " {{ .PWD }} ",
-          "foreground": "#151218",
-          "background": "#d6bbfb",
+          "template": " || .PWD °° ",
+          "foreground": "{{colors.surface.default.hex}}",
+          "background": "{{colors.primary.default.hex}}",
           "type": "path",
           "style": "diamond"
         },
@@ -53,9 +53,9 @@
             }
           },
           "trailing_diamond": "\ue0b4",
-          "template": " {{ .UpstreamIcon }}{{ .HEAD }}{{if .BranchStatus }} {{ .BranchStatus }}{{ end }}{{ if .Working.Changed }} \uf044 {{ .Working.String }}{{ end }}{{ if and (.Working.Changed) (.Staging.Changed) }} {{ end }}{{ if .Staging.Changed }} \uf046 {{ .Staging.String }}{{ end }}{{ if gt .StashCount 0 }} \uf0c7 {{ .StashCount }}{{ end }}",
-          "foreground": "#151218",
-          "background": "#f1b7c2",
+          "template": " || .UpstreamIcon °°|| .HEAD °°||if .BranchStatus °° || .BranchStatus °°|| end °°|| if .Working.Changed °° \uf044 || .Working.String °°|| end °°|| if and (.Working.Changed) (.Staging.Changed) °° || end °°|| if .Staging.Changed °° \uf046 || .Staging.String °°|| end °°|| if gt .StashCount 0 °° \uf0c7 || .StashCount °°|| end °°",
+          "foreground": "{{colors.surface.default.hex}}",
+          "background": "{{colors.tertiary_fixed_dim.default.hex}}",
           "type": "git",
           "style": "diamond"
         }

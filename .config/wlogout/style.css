@@ -1,22 +1,24 @@
+@import url("colors.css");
+
 * {
   background-image: none;
   box-shadow: none;
 }
 
 window {
-  background-color: rgba(12, 12, 12, 0.5);
+  background-color: @background;
 }
 
 button {
-  border: 0.5em solid #b4befe;
+  border: 0.5em solid @primary;
   border-radius: 0;
-  color: #cba6f7;
-  background-color: #45475a;
+  background-color: @surface_bright;
   background-repeat: no-repeat;
   background-position: center;
   background-size: 15%;
   transition: ease-in-out 0.2s;
   margin: 10em 0 10em 0;
+  color: transparent;
 }
 
 #lock {
@@ -58,13 +60,13 @@ button {
 }
 
 button:focus {
-  background-color: rgba(148, 226, 213, 0.5);
+  background-color: @secondary;
   outline-style: none;
 }
 
 button:active,
 button:hover {
-  background-color: rgba(203, 166, 247, 0.5);
+  background-color: @tertiary;
   outline-style: none;
   margin: 3em 0 3em 0;
   border-radius: 5em;
@@ -83,5 +85,5 @@ button:hover {
 #reboot:active,
 #reboot:hover {
   border-radius: 5em 5em 5em 5em;
-  border: 0.5em solid #b4befe;
+  border: 0.5em solid @primary;
 }
