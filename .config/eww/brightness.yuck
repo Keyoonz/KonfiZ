@@ -1,0 +1,23 @@
+(defwindow brightnessUp
+  :monitor 0
+  :geometry (geometry
+    :y "5%"
+    :width "10%"
+    :height "8%"
+    :anchor "bottom center")
+  :stacking "overlay"
+  :exclusive "false"
+  :focusable "false"
+  "brightness up")
+
+(defwindow brightnessDown
+  :monitor 0
+  :geometry (geometry
+    :y "5%"
+    :width "10%"
+    :height "8%"
+    :anchor "bottom center")
+  :stacking "overlay"
+  :exclusive "false"
+  :focusable "false"
+  "brightness down")

@@ -1,0 +1,120 @@
+@import 'colors.scss';
+
+.batteryLow {
+  border: 0.3em solid $primary;
+  border-radius: 2.5em;
+  color: $primary;
+  padding: 0;
+
+  label {
+    border-radius: 2.3em;
+    background-color: $background;
+  }
+
+  &:hover {
+    border-color: $tertiary;
+    color: $tertiary;
+  }
+}
+
+.batteryCritical {
+  border: 0.3em solid $primary;
+  border-radius: 2.5em;
+  color: $primary;
+  padding: 0;
+
+  label {
+    border-radius: 2.3em;
+    background-color: $background;
+  }
+
+  &:hover {
+    border-color: $tertiary;
+    color: $tertiary;
+  }
+}
+
+.volumeUp {
+  border: 0.3em solid $primary;
+  border-radius: 2.5em;
+  color: $primary;
+  padding: 0;
+
+  label {
+    border-radius: 2.3em;
+    background-color: $background;
+  }
+
+  &:hover {
+    border-color: $tertiary;
+    color: $tertiary;
+  }
+}
+
+.volumeDown {
+  border: 0.3em solid $primary;
+  border-radius: 2.5em;
+  color: $primary;
+  padding: 0;
+
+  label {
+    border-radius: 2.3em;
+    background-color: $background;
+  }
+
+  &:hover {
+    border-color: $tertiary;
+    color: $tertiary;
+  }
+}
+
+.volumeToggle {
+  border: 0.3em solid $primary;
+  border-radius: 2.5em;
+  color: $primary;
+  padding: 0;
+
+  label {
+    border-radius: 2.3em;
+    background-color: $background;
+  }
+
+  &:hover {
+    border-color: $tertiary;
+    color: $tertiary;
+  }
+}
+
+.brightnessUp {
+  border: 0.3em solid $primary;
+  border-radius: 2.5em;
+  color: $primary;
+  padding: 0;
+
+  label {
+    border-radius: 2.3em;
+    background-color: $background;
+  }
+
+  &:hover {
+    border-color: $tertiary;
+    color: $tertiary;
+  }
+}
+
+.brightnessDown {
+  border: 0.3em solid $primary;
+  border-radius: 2.5em;
+  color: $primary;
+  padding: 0;
+
+  label {
+    border-radius: 2.3em;
+    background-color: $background;
+  }
+
+  &:hover {
+    border-color: $tertiary;
+    color: $tertiary;
+  }
+}

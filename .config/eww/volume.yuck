@@ -1,0 +1,36 @@
+(defwindow volumeUp
+  :monitor 0
+  :geometry (geometry
+    :y "5%"
+    :width "10%"
+    :height "8%"
+    :anchor "bottom center")
+  :stacking "overlay"
+  :exclusive "false"
+  :focusable "false"
+  "volume up")
+
+(defwindow volumeDown
+  :monitor 0
+  :geometry (geometry
+    :y "5%"
+    :width "10%"
+    :height "8%"
+    :anchor "bottom center")
+  :stacking "overlay"
+  :exclusive "false"
+  :focusable "false"
+  "volume down")
+
+(defvar ismuted "")
+(defwindow volumeToggle
+  :monitor 0
+  :geometry (geometry
+    :y "5%"
+    :width "10%"
+    :height "8%"
+    :anchor "bottom center")
+  :stacking "overlay"
+  :exclusive "false"
+  :focusable "false"
+  "volume ${ismuted}muted")

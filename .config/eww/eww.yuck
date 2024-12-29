@@ -1,0 +1,3 @@
+(include "battery.yuck")
+(include "volume.yuck")
+(include "brightness.yuck")

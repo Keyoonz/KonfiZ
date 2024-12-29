@@ -1,0 +1,28 @@
+(defwindow batteryLow
+  :monitor 0
+  :geometry (geometry
+    :y "5%"
+    :width "10%"
+    :height "8%"
+    :anchor "top center")
+  :stacking "overlay"
+  :exclusive "false"
+  :focusable "false"
+  (button
+    :onclick "eww close batteryLow"
+    "Battery Low"))
+
+
+(defwindow batteryCritical
+  :monitor 0
+  :geometry (geometry
+    :y "5%"
+    :width "10%"
+    :height "8%"
+    :anchor "top center")
+  :stacking "overlay"
+  :exclusive "false"
+  :focusable "false"
+  (button
+    :onclick "eww close batteryCritical"
+    "Battery Critical"))
