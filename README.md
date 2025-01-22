@@ -13,6 +13,8 @@
 
 ![Desktop](screenshots/desktop.png)
 ![Logout menu](screenshots/logout.png)
+![Using](screenshots/using.png)
+![App Launcher](screenshots/app-launcher.png)
 
 ## Requirements
 
