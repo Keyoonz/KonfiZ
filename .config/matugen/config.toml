@@ -20,7 +20,6 @@ post_hook = 'swaync-client -rs'
 [templates.hyprland]
 input_path = './templates/colors.conf'
 output_path = '~/.config/hypr/colors.conf'
-post_hook = 'sed -i "s/, /,/g" ~/.config/hypr/colors.conf'
 
 [templates.swaylock]
 input_path = './templates/config'
