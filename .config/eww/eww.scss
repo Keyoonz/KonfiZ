@@ -1,5 +1,9 @@
 @import 'colors.scss';
 
+* {
+  all: unset;
+}
+
 .batteryLow {
   border: 0.3em solid $primary;
   border-radius: 2.5em;
