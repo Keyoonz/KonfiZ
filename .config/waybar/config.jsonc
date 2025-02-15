@@ -18,13 +18,14 @@
   "battery" : {
     "interval": 1,
     "states": {
-      "good": 100,
+      "good": 99,
       "warning": 30,
       "critical": 15
     },
     "format-full": "{icon}",
     "format-charging": "{capacity}%󰂄",
     "format-discharging": "{capacity}%{icon}",
+    "format-good": "{icon}",
     "format-icons": [
       "󰁺",
       "󰁻",
