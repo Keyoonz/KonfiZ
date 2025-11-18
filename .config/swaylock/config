@@ -2,23 +2,23 @@ indicator
 indicator-idle-visible
 indicator-radius=150
 indicator-thickness=10
-inside-color=#151218
+inside-color=#171216
 inside-clear-color=#ffdad6
-inside-caps-lock-color=#151218
-inside-ver-color=#523c73
+inside-caps-lock-color=#171216
+inside-ver-color=#66355f
 inside-wrong-color=#93000a
-key-hl-color=#d6bbfb
+key-hl-color=#f2b3e5
 line-uses-ring
-ring-color=#523c73
+ring-color=#66355f
 ring-clear-color=#690005
-ring-caps-lock-color=#d6bbfb
-ring-ver-color=#d6bbfb
+ring-caps-lock-color=#f2b3e5
+ring-ver-color=#f2b3e5
 ring-wrong-color=#690005
-separator-color=#d6bbfb
-text-color=#d6bbfb
+separator-color=#f2b3e5
+text-color=#f2b3e5
 text-clear-color=#690005
-text-caps-lock-color=#d6bbfb
-text-ver-color=#d6bbfb
+text-caps-lock-color=#f2b3e5
+text-ver-color=#f2b3e5
 text-wrong-color=#ffb4ab
 text-caps-lock=CAPS-LOCK
 text-ver=Verifying...
@@ -29,7 +29,7 @@ timestr=%H:%M
 datestr=%A, %x
 
 scaling=stretch
-image=~/.config/assets/wallpaper/purple-wallpaper.jpg
+image=~/.config/assets/wallpaper/town-wallpaper.png
 effect-blur=90x1
 effect-pixelate=5
 

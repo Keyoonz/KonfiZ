@@ -11,8 +11,8 @@
           },
           "leading_diamond": "\ue0b6",
           "trailing_diamond": "\ue0b4",
-          "foreground": "#151218",
-          "background": "#f1b7c2",
+          "foreground": "#171216",
+          "background": "#f5b8a6",
           "type": "os",
           "style": "diamond"
         },
@@ -22,8 +22,8 @@
           },
           "trailing_diamond": "\ue0b4",
           "template": " {{ .UserName }}@{{ .HostName }}",
-          "foreground": "#151218",
-          "background": "#cec2db",
+          "foreground": "#171216",
+          "background": "#dbbed2",
           "type": "session",
           "style": "diamond"
         },
@@ -33,8 +33,8 @@
           },
           "trailing_diamond": "\ue0b4",
           "template": " {{ .PWD }} ",
-          "foreground": "#151218",
-          "background": "#d6bbfb",
+          "foreground": "#171216",
+          "background": "#f2b3e5",
           "type": "path",
           "style": "diamond"
         },
@@ -54,8 +54,8 @@
           },
           "trailing_diamond": "\ue0b4",
           "template": " {{ .UpstreamIcon }}{{ .HEAD }}{{if .BranchStatus }} {{ .BranchStatus }}{{ end }}{{ if .Working.Changed }} \uf044 {{ .Working.String }}{{ end }}{{ if and (.Working.Changed) (.Staging.Changed) }} {{ end }}{{ if .Staging.Changed }} \uf046 {{ .Staging.String }}{{ end }}{{ if gt .StashCount 0 }} \uf0c7 {{ .StashCount }}{{ end }}",
-          "foreground": "#151218",
-          "background": "#f1b7c2",
+          "foreground": "#171216",
+          "background": "#f5b8a6",
           "type": "git",
           "style": "diamond"
         }
