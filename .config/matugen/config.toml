@@ -37,3 +37,7 @@ post_hook = 'sed -i "s/|/{/g" ~/.config/oh-my-posh/config.omp.json && sed -i "s/
 [templates.eww]
 input_path = './templates/colors.scss'
 output_path = '~/.config/eww/colors.scss'
+
+[templates.nvim-kolorz]
+input_path = '~/.local/share/nvim/lazy/nvim-kolorz/lua/nvim-kolorz/colors_template.lua'
+output_path = './results/colors.lua'
