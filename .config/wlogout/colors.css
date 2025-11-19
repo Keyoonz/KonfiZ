@@ -1,5 +1,5 @@
-@define-color background rgba(23, 18, 22, 1);
+@define-color background rgba(23, 18, 22, 0.7);
 @define-color primary #f2b3e5;
-@define-color secondary #000000;
-@define-color tertiary #000000;
+@define-color secondary #a45c8e;
+@define-color tertiary #e64a1c;
 @define-color surface_bright #3e373c;

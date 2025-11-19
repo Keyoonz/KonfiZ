@@ -28,6 +28,7 @@ output_path = '~/.config/swaylock/config'
 [templates.wlogout]
 input_path = './templates/wlogoutcolors.css'
 output_path = '~/.config/wlogout/colors.css'
+post_hook = 'sed -i "s/999/0.7/g" ~/.config/wlogout/colors.css'
 
 [templates.oh-my-posh]
 input_path = './templates/config.omp.json'
