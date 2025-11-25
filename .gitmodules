@@ -3,4 +3,4 @@
 	url = https://github.com/tmux-plugins/tpm
 [submodule ".config/nvim"]
 	path = .config/nvim
-	url = https://github.com/Keyoonz/KeoviZ
+	url = https://gitkeaz.keyonz.dev/Keyonz/KeoviZ
