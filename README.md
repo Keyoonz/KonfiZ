@@ -9,6 +9,8 @@
   - [What's next ?](#whats-next)
 <!--toc:end-->
 
+README is outdated I am working on it :))
+
 ## Screenshots
 
 ![Desktop](screenshots/desktop.png)
