@@ -65,7 +65,7 @@ Make sure to install all the dependencies listed [above](#requirements).
 Clone this repo and go into it (the folder containing the repo must be in your home folder here : `~/konfiz`) :
 
 ```bash
-git clone https://github.com/Keyoonz/konfiz ~/konfiz && cd ~/konfiz
+git clone https://gitkeaz.keyonz.dev/Keyonz/konfiz ~/konfiz && cd ~/konfiz
 ```
 
 Setup all the dotfiles
